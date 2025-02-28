@@ -1,0 +1,3 @@
+# Ignore logs and output files
+Projects/RedditDataPipelineProject/logs/
+Projects/RedditDataPipelineProject/data/output/
