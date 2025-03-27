@@ -19,7 +19,6 @@ This project leverages industry-standard tools and technologies:
 - **SQL Server Management Studio (SSMS)** - GUI for database management and query execution.
 - **GitHub** - Version control and collaboration.
 - **DrawIO** - Data architecture, modeling, and workflow diagramming.
-- **Notion** - Project management and documentation.
 
 ---
 
