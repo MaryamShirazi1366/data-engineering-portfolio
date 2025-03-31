@@ -1,54 +1,82 @@
-# 🧠 Data Engineering Portfolio
+## 📊 Data Engineering Portfolio
 
 Welcome to my Data Engineering Portfolio!  
-This repository contains a collection of projects that demonstrate my skills in data pipelines, ETL workflows, automation, and dashboarding.
+This repository showcases a series of projects I’ve built to demonstrate skills in scalable data pipelines, cloud-based architecture, ETL workflows, and dashboarding using both open-source and enterprise tools.
 
 ---
 
-## 📁 Projects
+## 🔍 Featured Projects
 
-### 🔹 1. Reddit Data Pipeline Project
-- Built an end-to-end pipeline to extract Reddit posts using the Pushshift API.
-- Processed, transformed, and loaded the data using Python, Pandas, and PostgreSQL.
-- Visualized insights using Power BI.
+### 🧵 Reddit Data Pipeline Project
+A full-stack data pipeline that extracts Reddit data and loads it into a cloud-based warehouse for analysis.
 
-➡️ [Projects/RedditDataPipelineProject](Projects/RedditDataPipelineProject)
+**Key Features:**
+- 🔄 Orchestrated with **Apache Airflow + Celery**
+- 📥 Extracts data from **Reddit API**
+- 💾 Stages data in **PostgreSQL** before pushing to the cloud
+- ☁️ Stores raw data in **Amazon S3**
+- 🧪 Transforms data with **AWS Glue** & **Athena**
+- 📊 Final structured data stored in **Amazon Redshift**
 
----
-
-### 🔹 2. SQL Data Warehouse
-- Designed and implemented a star-schema-based data warehouse.
-- Used SQL Server to build fact and dimension tables from raw customer data.
-- Created optimized queries for performance analysis.
-
-➡️ [Projects/SQLDataWarehouse](Projects/SQLDataWarehouse)
+📁 [Explore the Project](Projects/RedditDataPipelineProject)
 
 ---
 
-### 🔹 3. Smart City Project
-- Collected and processed open city data (e.g., traffic, pollution, energy use).
-- Used Python and PostgreSQL to model and clean datasets.
-- Built dashboards to support data-driven city planning.
+### 🧱 SQL Data Warehouse & Analytics
+Implements a modern data warehouse using the **Medallion Architecture** (Bronze → Silver → Gold).
 
-➡️ [Projects/SmartcityProject](Projects/SmartcityProject)
+**Key Features:**
+- 🧩 Built using **SQL Server Express + SSMS**
+- 📂 Ingests raw CSVs (e.g., sales, customer data)
+- 🧹 Cleans and transforms into structured **star schema**
+- 📈 Enables deep-dive analytics on customer, product, and sales performance
+- 📋 Includes ERD diagrams and full documentation
 
----
-
-### 🔹 4. YouTube Analysis Pipeline
-- Developed a data pipeline to analyze channel performance and viewer engagement.
-- Automated data ingestion using APIs and cron jobs.
-- Delivered final KPIs through interactive visualizations.
-
-➡️ [Projects/YouTubeAnalysisProject-Dataengineering](Projects/YouTubeAnalysisProject-Dataengineering)
+📁 [Explore the Project](Projects/SQLDataWarehouse)
 
 ---
 
-## 📊 Tools & Technologies
+### 📺 YouTube Video Data Engineering Project
+A scalable cloud-based pipeline for processing and analyzing structured & semi-structured YouTube video data.
 
-- **Languages:** Python, SQL
-- **Databases:** PostgreSQL, SQL Server
-- **Tools:** Git, Power BI, Tableau
-- **Workflow:** ETL pipelines, APIs, data modeling, automation
+**Key Features:**
+- 🚀 Uses **AWS Lambda, Glue, S3, and Athena** for ETL
+- 🛠 Semi-structured JSON → Structured format using Glue
+- 🔍 SQL querying via **Amazon Athena**
+- 📊 Dashboarding in **Amazon QuickSight**
+- 📈 Tracks trends like likes, views, engagement per country & category
 
+📁 [Explore the Project](Projects/YouTubeAnalysisProject-Dataengineering)
 
-⭐ **Thank you for visiting! Feel free to explore, fork, or reach out.**
+---
+
+### 🏙️ Smart City Project
+Analyzes open city data to support smarter decision-making.
+
+- 🏙️ Processes public datasets (traffic, energy, pollution)
+- 🧹 Cleans and models in **PostgreSQL**
+- 📈 Visualizations built using BI tools
+
+📁 [Explore the Project](Projects/SmartcityProject)
+
+---
+
+## 🧰 Tools & Technologies
+
+| Category         | Tools Used                                                                 |
+|------------------|----------------------------------------------------------------------------|
+| **Languages**     | Python, SQL                                                                |
+| **Workflow & ETL**| Airflow, AWS Glue, Lambda, Celery                                          |
+| **Databases**     | PostgreSQL, SQL Server, Amazon Redshift                                    |
+| **Cloud Services**| AWS S3, Glue, Athena, QuickSight                                           |
+| **Visualization** | Power BI, Tableau, QuickSight                                              |
+| **Versioning**    | Git, GitHub                                                                |
+
+---
+
+## 📌 About Me
+
+**👩‍💻 Maryam Shirazi**  
+Data Engineer with a strong focus on building scalable, cloud-based data pipelines, and analytics-ready architectures. Passionate about automation, clean data models, and telling stories with data.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/maryam-hosseinalishirazi)
